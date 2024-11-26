@@ -8,5 +8,5 @@ def fetch_titles(url):
     for title in titles:
         print(title.get_text())
 
-url = "<https://important-jay-07d.notion.site/Python-Crash-Course-35b6532cfa5b4e5a96ef9ff45faaf5b9#5899bc7d96e1425a8708774e34a5fb87>"
+url = "https://important-jay-07d.notion.site/Python-Crash-Course-35b6532cfa5b4e5a96ef9ff45faaf5b9"
 fetch_titles(url)

@@ -10,10 +10,11 @@ def chatbot_response(user_input):
         "what is your purpose": "I'm here to help you with any questions you have.",
         "thank you": "You're welcome!",
         "thanks": "You're welcome!",
-        "default": "I'm not sure how to respond to that."
-        
+        "help": "I'm here to help you. What do you need help with?",
+        "": "I'm not sure how to respond to that.",
+        "have a great day": "You too!"
     }
-    return responses.get(user_input.lower(), "Sorry, I don't understand that.")
+    return responses.get(user_input.lower(), "I'm not sure how to respond to that.")
 
 while True:
     user_input = input("You: ")
